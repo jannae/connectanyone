@@ -36,12 +36,20 @@ The bot watches these search streams:
 
 * ["I want to talk to anyone"](https://twitter.com/search?f=realtime&q=%22I%20want%20to%20talk%20to%20anyone%22&src=typd)
 * ["I will talk to anyone"](https://twitter.com/search?f=realtime&q=%22I%20will%20talk%20to%20anyone%22&src=typd)
-* [I'll talk to anyone](https://twitter.com/search?f=realtime&q=%22I%27ll%20talk%20to%20anyone%22&src=typd)
-* [I'd talk to anyone](https://twitter.com/search?f=realtime&q=%22I%27d%20talk%20to%20anyone%22&src=typd)
+* ["I'll talk to anyone"](https://twitter.com/search?f=realtime&q=%22I%27ll%20talk%20to%20anyone%22&src=typd)
+* ["I'd talk to anyone"](https://twitter.com/search?f=realtime&q=%22I%27d%20talk%20to%20anyone%22&src=typd)
 
-When two people are discovered having tweeted any of these exact phrases within a reasonable time difference, they are matched. 
+When two people are discovered having tweeted any of these exact phrases within a reasonable time difference, they are matched together with the following tweet:
 
-<a class="twitter-timeline" height="250" data-dnt="true" href="https://twitter.com/ConnectAnyones" data-widget-id="527515646674743296">Tweets by @ConnectAnyones</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/adhd79">@adhd79</a>, please meet <a href="https://twitter.com/JasmineCTate">@JasmineCTate</a>, you will both talk to anyone, perhaps you might like to talk to each other. :)</p>&mdash; Connecting Anyones (@ConnectAnyones) <a href="https://twitter.com/ConnectAnyones/status/527478095675412480">October 29, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 ### TODO / Project Goals
+
+* Make this into an actual bot. 
+* Bot will keep up with tweetIDs which have led to a connection in order to not connect people multiple times.
+* Bot must recognize time difference between tweets so that we don't connect people who asked for contact more than 24 hours ago. (too much/little?)
+* Follow people who have been connected. 
+* Make lists based on tweet context (debatable)
+* Maaaaybe let people tweet me asking to be connected, in which case they'd be added to a random pool available to be connected during some time frame they specify.... oooh. fancy.
