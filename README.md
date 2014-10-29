@@ -38,6 +38,7 @@ The bot watches these search streams:
 * ["I will talk to anyone"](https://twitter.com/search?f=realtime&q=%22I%20will%20talk%20to%20anyone%22&src=typd)
 * ["I'll talk to anyone"](https://twitter.com/search?f=realtime&q=%22I%27ll%20talk%20to%20anyone%22&src=typd)
 * ["I'd talk to anyone"](https://twitter.com/search?f=realtime&q=%22I%27d%20talk%20to%20anyone%22&src=typd)
+* ["I want to talk to someone"](https://twitter.com/search?q=%22I%20want%20to%20talk%20to%20someone%22&src=typd)
 
 When two people are discovered having tweeted any of these exact phrases within a reasonable time difference, they are matched together with the following tweet:
 
